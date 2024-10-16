@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 317px;
+  max-width: 317px;
+  height: 780px;
+  font-family: Inter, sans-serif;
+}
+
+.container {
+  background-color: #1a1b21;
+}
+.profile-pic {
+  width: 100%;
+}
+
+.linkedin-label {
+  background: #5093e2;
+}
+
+.footer {
+  height: 64px;
+  background-color: #161619;
+  display: flex;
+  padding: 0 40px;
+}
+
+.footer > a {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+.about-section,
+.interests-section {
+  width: 80%;
+  margin: auto;
+}
+.about-section > p,
+.interests-section > p {
+  color: #dcdcdc;
+  font-family: Inter;
+  font-size: 10.6px;
+  font-weight: 400;
+  line-height: 15.36px;
+  text-align: left;
+}
+
+.interests-section {
+  padding-bottom: 25px;
+}
+.about-section > h3,
+.interests-section > h3 {
+  color: #f5f5f5;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.title,
+.role,
+.website {
+  padding: 0;
+  margin: 0;
+}
+
+.website {
+  margin-top: 10px;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 15.36px;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.role {
+  color: #f3bf99;
+  font-family: Inter;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 15.49px;
+  text-align: center;
+  margin-top: 3.5px;
+}
+
+.title {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.links-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.email-label,
+.linkedin-label {
+  width: 115px;
+  height: 34px;
+  top: 468px;
+  left: 151px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.email-label {
+  background-color: white;
+}
+
+.email-label > img,
+.linkedin-label > img {
+  margin-right: 5px;
+}
+
+.email-label > a,
+.linkedin-label > a {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  text-decoration: none;
+}
